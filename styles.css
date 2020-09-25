@@ -182,4 +182,5 @@ body {
 .attribution a {
   color: var(--desaturatedDarkBlue);
   text-decoration: none;
+  margin: 0 3px;
 }
