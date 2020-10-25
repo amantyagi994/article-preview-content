@@ -215,6 +215,7 @@ h2 {
 	.container {
 		width: 100%;
 		max-width: 55rem;
+		height: 18rem;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -239,6 +240,7 @@ h2 {
 	.infoContainer {
 		width: 60%;
 		position: relative;
+		padding: 0.5rem 2rem;
 	}
 
 	h2 {
@@ -247,6 +249,10 @@ h2 {
 
 	.infoContainer > p {
 		font-size: 0.85rem;
+	}
+
+	.userProfile {
+		margin: 0.5rem 0;
 	}
 
 	.profileImage {
@@ -269,10 +275,10 @@ h2 {
 
 	.shareActivated {
 		width: 20rem;
-		transform: translate(97.5%, -5.8rem);
+		transform: translate(97.5%, -5.5rem);
 		border-radius: 1rem;
 		justify-content: space-between;
-		/* display: none; */
+		display: none;
 	}
 
 	.shareActivated p {
